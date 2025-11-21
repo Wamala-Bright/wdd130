@@ -65,13 +65,13 @@ nav, p, section, article {
 
 .hero article {
     position: absolute;
-    top: 20px;
+    bottom: 1px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-attachment: var(--accent1-color);
-    color:#fff;
+    color:#ffffff;
 }
 
 .hero img {
