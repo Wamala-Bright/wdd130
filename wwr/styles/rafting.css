@@ -1,19 +1,17 @@
-/* ----------------------- */
-/* Universal Reset & Root */
-/* ----------------------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}/* ----------------------- */
+/* Universal Reset & Root */
+/* ----------------------- */
 
 :root {
-    --primary-color: #dcd6f7;
-    --secondary-color: #790588;
+    --primary-color: #e6baff;
     --accent-color: #9a8cff;
-    --heading-color: #ffffff;
+    --heading-color: #dddddd;
     --text-color: #333;
-    --bg-light: #f2f2f2;
+    --bg-light: #e6e4f8;
     --white: #fff;
 }
 
@@ -40,8 +38,8 @@ header {
 }
 
 header img {
-    width: 80px;
-    height: 80px;
+    width: 220px;
+    height: 150px;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -84,12 +82,14 @@ header nav ul.navigation li a:hover {
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    border-radius: 5px;
 }
 
 .hero img.hero-main-img {
     width: 90%;
     max-width: 1000px;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .hero h1 {
@@ -170,7 +170,7 @@ section {
 section h2 {
     text-align: center;
     margin-bottom: 15px;
-    color: var(--secondary-color-color);
+    color: var(--heading-color-);
 }
 
 /* Adventure Awaits Image Grid */
@@ -264,4 +264,31 @@ footer nav.socialmedia a img:hover {
     .adventure-grid img {
         max-width: 100%;
     }
+}
+
+/* Adventure Awaits - Figure Row */
+section:last-of-type figure {
+    display: flex;
+    justify-content:space-between;
+    align-items: center-left;
+    gap: 0px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-left: 5%;
+}
+
+section:last-of-type figure img {
+    width: 130px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+
+section:last-of-type figure figcaption {
+    text-align: center-left;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    text-decoration-thickness: var(--accent-color);
 }
