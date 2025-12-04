@@ -292,3 +292,45 @@ section:last-of-type figure figcaption {
     font-size: 0.8rem;
     text-decoration-thickness: var(--accent-color);
 }
+button[type="submit"] {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #7a6ce0;
+}
+
+section.employee-images {
+    text-align: center;
+    padding: 20px 5%;
+}
+
+section.employee-images h2 {
+    margin-bottom: 15px;
+}
+
+section.employee-images {
+    display: flex;
+    flex-direction: column; /* keeps h2 on top */
+    align-items: center;
+}
+
+section.employee-images img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+/* Wrap the images horizontally */
+section.employee-images img {
+    display: inline-block;
+    
+}
