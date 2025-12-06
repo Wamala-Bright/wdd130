@@ -26,7 +26,7 @@ footer{
     text-align: center;
 }
 nav{
-    background-color: steelblue;
+    background-color: rgb(80, 170, 243);
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -39,4 +39,31 @@ nav a{
     font-size: 1.2rem;
     font-weight: 700;
     color: #fff;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 15px;
+}
+
+footer div.socialmedia {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer div.socialmedia a {
+    text-decoration: none; /* remove underline for social media links */
+}
+
+footer div.socialmedia a img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+footer div.socialmedia a img:hover {
+    transform: scale(1.2);
 }
