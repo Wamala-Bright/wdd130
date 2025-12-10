@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Wamala Bright">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting Adventures</title>
+    <meta name="description"
+        content="Contact White Water Rafting Adventures. Send us a message, ask questions, or learn more about our rafting trips, safety, and reservations.">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/flexbox.css">
+    <link rel="stylesheet" href="style/flexbox-menu.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rafting59_600.jpg" alt="Rapids Rafting Site">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content">
+                <h1>Choose your next river adventure</h1>
+                <p>From gentle family floats to heart-pounding whitewater, we guide trips for all skill levels — gear
+                    included.
+                </p>
+                <p><a class="btn-cta" href="contact.html">Book or Ask Questions</a></p>
+            </div>
+            <figure class="hero-image" aria-hidden="true">
+                <img src="images/fig2.webp" alt="Guides leading a raft down a rocky rapid">
+            </figure>
+        </section>
+
+        <!-- Trip cards (grid) -->
+        <section class="trips-overview" aria-labelledby="trips-heading">
+            <div class="section-inner">
+                <h2 id="trips-heading">Featured Trips</h2>
+                <p class="lead">Hand-picked adventures — each trip includes trained guides, life jackets, and safety
+                    briefings.
+                </p>
+
+                <div class="trip-grid">
+                    <!-- Trip 1 -->
+                    <article class="trip-card">
+                        <figure>
+                            <img src="images/fig2.webp" alt="Raft tackling class III rapids">
+                            <figcaption>Class III Rapids — Half-day</figcaption>
+                        </figure>
+                        <div class="trip-card-body">
+                            <h3>Class III Rapids — Half-day</h3>
+                            <p>Perfect for first-timers looking for an exciting introduction to whitewater.
+                                Approximately 3–4
+                                miles with several moderate rapids.</p>
+                            <ul class="trip-meta">
+                                <li>Duration: 4 hours</li>
+                                <li>Min age: 10+</li>
+                                <li>Skill: Beginner / Intermediate</li>
+                            </ul>
+                            <a class="btn-secondary" href="contact.html"
+                                aria-label="Contact about Class III Rapids trip">Ask
+                                about this trip</a>
+                        </div>
+                    </article>
+
+                    <!-- Trip 2 -->
+                    <article class="trip-card">
+                        <figure>
+                            <img src="images/fig3.webp" alt="Experienced rafters navigating a big rapid">
+                            <figcaption>Class IV — Full day</figcaption>
+                        </figure>
+                        <div class="trip-card-body">
+                            <h3>Class IV Rapids — Full Day</h3>
+                            <p>For experienced adventurers: long runs, technical rapids, and scenic stretches. Includes
+                                river-side lunch and professional guides.</p>
+                            <ul class="trip-meta">
+                                <li>Duration: 8–9 hours</li>
+                                <li>Min age: 14+</li>
+                                <li>Skill: Advanced</li>
+                            </ul>
+                            <a class="btn-secondary" href="contact.html" aria-label="Contact about Class IV trip">Ask
+                                about this
+                                trip</a>
+                        </div>
+                    </article>
+
+                    <!-- Trip 3 -->
+                    <article class="trip-card">
+                        <figure>
+                            <img src="images/fig5.webp" alt="Camps on the riverbank during a multi-day expedition">
+                            <figcaption>Multi-Day Expedition</figcaption>
+                        </figure>
+                        <div class="trip-card-body">
+                            <h3>Multi-Day Expedition</h3>
+                            <p>Experience remote stretches of river with overnight camping, evening campfires, and
+                                guided
+                                instruction. A true river immersion.</p>
+                            <ul class="trip-meta">
+                                <li>Duration: 2–4 days</li>
+                                <li>Min age: 16+</li>
+                                <li>Skill: Intermediate to Advanced</li>
+                            </ul>
+                            <a class="btn-secondary" href="contact.html"
+                                aria-label="Contact about Multi-Day Expedition">Ask
+                                about this trip</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Table of trips -->
+        <section class="trips-table-section" aria-labelledby="table-heading">
+            <div class="section-inner">
+                <h2 id="table-heading">Trip Offerings & Details</h2>
+                <div class="table-wrap" role="table" aria-label="Trips table">
+                    <table class="trips-table">
+                        <caption class="sr-only">List of available trips with duration, price, difficulty and
+                            availability
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Trip</th>
+                                <th scope="col">Duration</th>
+                                <th scope="col">Price (per person)</th>
+                                <th scope="col">Difficulty</th>
+                                <th scope="col">Season</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Class II Family Float</td>
+                                <td>2–3 hours</td>
+                                <td>$45</td>
+                                <td>Easy</td>
+                                <td>Apr–Oct</td>
+                            </tr>
+                            <tr>
+                                <td>Class III Rapids — Half-day</td>
+                                <td>4 hours</td>
+                                <td>$85</td>
+                                <td>Beginner/Intermediate</td>
+                                <td>May–Sep</td>
+                            </tr>
+                            <tr>
+                                <td>Class IV — Full Day</td>
+                                <td>8–9 hours</td>
+                                <td>$160</td>
+                                <td>Advanced</td>
+                                <td>Jun–Sep</td>
+                            </tr>
+                            <tr>
+                                <td>Multi-Day Expedition</td>
+                                <td>2–4 days</td>
+                                <td>From $420</td>
+                                <td>Intermediate/Advanced</td>
+                                <td>Jun–Aug</td>
+                            </tr>
+                            <tr>
+                                <td>Private Guided Trip (custom)</td>
+                                <td>Custom</td>
+                                <td>Quote</td>
+                                <td>Any</td>
+                                <td>Year-round*</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="cta-note">Want a custom itinerary or group booking? <a href="contact.html">Contact us</a> — we
+                    arrange
+                    transport, catering, and specialized gear on request.</p>
+            </div>
+        </section>
+
+        <!-- Accessibility / Newsletter prompt (small) -->
+        <aside class="newsletter" aria-labelledby="newsletter-heading">
+            <div class="section-inner">
+                <h2 id="newsletter-heading">Stay in the Loop</h2>
+                <p>Get early access to seasonal trips, safety tips, and discounts.</p>
+                <form action="contact.html" method="get" class="newsletter-form"
+                    aria-label="Subscribe to newsletter (sends to contact page)">
+                    <label for="email" class="sr-only">Email address</label>
+                    <input id="email" name="email" type="email" placeholder="you@example.com" required>
+                    <button class="btn-cta" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy;2025
+            Wamala Bright 🐱‍👤
+            Kampala, Uganda
+        </p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-square.svg" alt="Facebook icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-bw.svg" alt="Linkedin icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-square.svg" alt="Instagram icon">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

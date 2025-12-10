@@ -52,7 +52,7 @@ main {
   margin: 1rem;
 }
 main img{
-    width:150px;
+    width:179px;
     height: auto;
     float: right;
     left: 20%;
@@ -81,14 +81,12 @@ nav a{
 
 
 footer {
-    footer {
     background-color: var(--primary-color);
     text-align: center;
     padding: 20px;
+    margin: 20px;
+    height: auto;
     width: 100%;
-    margin: 0;     /* Remove margins that break full width */
-    border-top: 1px solid #000; /* optional if you want the line */
-}
 
 }
 
