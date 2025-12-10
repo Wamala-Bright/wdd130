@@ -2,89 +2,101 @@
 <html lang="en">
 
 <head>
-    <meta name="description"
-        content="Describe your home page here using keywords like your name, the course, the purpose for this page.">
-    <meta name="author" content="Wamala Bright">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Wamala Bright | WDD 130</title>
-
-    <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rapids Rafting & Treks</title>
+    <link rel="stylesheet" href="styles/rafting.css" />
 </head>
 
 <body>
+
     <header>
+        <img src="images/z-rapids-trees.jpg" alt="Rapids Rafting Site">
         <nav>
-            <a href="#">Home</a>
-            <a href="about.html">Rafting Website</a>
-            <a href=" https://linkedin.com.">Linkedin</a>
-            <a href="https://facebook.com.">Facebook</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
-    <div class="grid">
-        <main>
-            <h1>Wamala Bright | WDD 130</h1>
-            <img src="images/wamala-bright-profile-pic.webp" alt="wamala bright">
+    <main>
+
+        <!-- Hero / Banner -->
+        <section class="hero">
+            <img src="images/rafting12_1024.jpg" alt="Rafting in Peru Rivers">
+            <div class="hero-text">
+                <h2>Rapids Water Rafting & Treks</h2>
+                <p>40+ years of experience. Join us for thrilling adventures.</p>
+                <a href="trips.html" class="btn">See Our Trips</a>
+            </div>
+        </section>
+
+        <!-- About / Intro -->
+        <section class="intro container">
+            <h2>More about us</h2>
             <p>
-                Hello! I am Wamala Bright,I am from Kampala,Uganda.I'm a passionate tech enthusiast
-                with a deep love for computers and all things digital. From tinkering with
-                hardware to exploring the latest in software innovation, I thrive in the world of technology whether
-                it's
-                coding,
-                troubleshooting, or dreaming up the next big idea, my curiosity and
-                drive make me a natural problem solver and a
-                future leader in the tech space.
-
+                Peru Rafting offers you the most exciting rivers of Peru. With more than 40 years of experience,
+                quality equipment and highly trained guides, we guarantee a unique adventure — rafting, jungle
+                expeditions,
+                treks through the Andes and more.
             </p>
+        </section>
 
-            <ul>
-                <ul class="box">
-                    <li><a href="https://www.churchofjesuschrist.org/temples/details/philadelphia-pennsylvania-temple"
-                            target="_blank">Philadelphia Pennsylvania Temple</a></li>
-                    <li><a href="https://www.churchofjesuschrist.org/temples/details/paris-france-temple"
-                            target="_blank">Paris
-                            France
-                            Temple</a></li>
-                    <li><a href="https://www.churchofjesuschrist.org/temples/details/lima-peru-los-olivos-temple"
-                            target="_blank">Berlin
-                            Germany Temple</a></li>
-                </ul>
+        <!-- Featured Tours / Packages -->
+        <section class="tours container">
+            <h2>Featured Adventures</h2>
 
+            <div class="tour-list">
 
-        </main>
-    </div>
-    <div class="grid">
-        <aside>
-            <aside class="box">
-                <img src="images/kampala-capital-city.webp" alt="kampala-uganda">
-                <p>Uganda is a landlocked country in the east African end of Africa also called
-                    'The Pearl of Africa'.
-                    It has beautifull scenaries like widlife, mountain ranges, water bodies and also the source of the
-                    Nile
-                    river.
-                </p>
-            </aside>
-    </div>
+                <div class="tour-card">
+                    <img src="images/fig1.webp" alt="Amazon Jungle Rafting">
+                    <h3>Headwater of the Amazon – 8 Days</h3>
+                    <p>Unique jungle expedition in the Tambopata rainforest, remote and wild.</p>
+                    <a href="trips.html#amazon" class="btn small">Learn More</a>
+                </div>
 
-    <footer>
-        <p>
-            &copy;2025
-            Wamala Bright 🐱‍👤
-            Kampala,Uganda.
-        </p>
-        <div class="socialmedia">
-            <a href="https://facebook.com">
+                <div class="tour-card">
+                    <img src="images/fig3.webp" alt="Maranon River Rafting">
+                    <h3>Heart of the Marañón – 8 Days</h3>
+                    <p>Brave the mighty Marañón River, a major Amazon tributary — an epic rafting journey.</p>
+                    <a href="trips.html#maranon" class="btn small">Learn More</a>
+                </div>
 
-                <img src="images/facebook-square.svg" alt="Facebook icon">
-            </a>
-            <a href="https://linkedin.com">
-                <img src="images/linkedin-bw.svg" alt="Linkedin icon">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram-square.svg" alt="Instagram icon">
-            </a>
+                <div class="tour-card">
+                    <img src="images/fig5.webp" alt="Apurimac Rafting">
+                    <h3>Apurimac River Rafting – 3 Days</h3>
+                    <p>Thrilling class IV–V rapids through spectacular canyon walls and pristine nature.</p>
+                    <a href="trips.html#apurimac" class="btn small">Learn More</a>
+                </div>
+
+                <div class="tour-card">
+                    <img src="images/rafting59_600.jpg" alt="Multi Sport Adventure">
+                    <h3>Multi-Sport Adventure – 3 Days</h3>
+                    <p>Combine rafting, trekking and cultural visits for a full adventure experience.</p>
+                    <a href="trips.html#multi-sport" class="btn small">Learn More</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Info -->
+        <section class="contact-info container">
+            <h2>Get in Touch</h2>
+            <p>Email: <strong>info@rapidsrafting.com</strong></p>
+            <p>Phone: <strong>+51 084 232666</strong></p>
+            <p>Toll-Free (USA/Canada): <strong>1-888-493-2109</strong></p>
+            <p>Hours: <strong>9 a.m. – 9 p.m.</strong></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 Rapids Rafting & Treks — All Rights Reserved</p>
         </div>
     </footer>
+
 </body>
 
 </html>
